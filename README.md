@@ -7,7 +7,7 @@
 ## 📌 What is FocusGuardian?
 
 FocusGuardian is a productivity tool for Windows that helps users stay focused by:
-- Blocking distracting apps like **Chrome**, **YouTube**, or **Instagram**
+- Blocking distracting apps like **Chrome**, **Reddit** etc
 - Preventing their access even if reopened during a focus session
 - Tracking **total focus hours**
 - Logging every **blocked attempt** with a timestamp
