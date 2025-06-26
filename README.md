@@ -4,7 +4,7 @@
 
 ---
 
-## 📌 What is FocusGuardian?
+##  What is FocusGuardian?
 
 FocusGuardian is a productivity tool for Windows that helps users stay focused by:
 - Blocking distracting apps like **Chrome**, **Reddit** etc
@@ -38,7 +38,7 @@ It's designed for students, developers, or anyone who wants to reclaim their tim
 
 ---
 
-## 🌟 Features
+##  Features
 
 ✅ Pomodoro-style Timer  
 ✅ App Blocking with Force Close  
@@ -50,15 +50,17 @@ It's designed for students, developers, or anyone who wants to reclaim their tim
 
 ---
 
-## 🖼️ Screenshots
+##  Screenshots
 
-### 🔐 Login / Signup Page
+###  Login / Signup Page
 ![Screenshot 2025-06-22 224248](https://github.com/user-attachments/assets/5559825d-8de3-4f2b-ba46-01bafff151f1)
 
 
-### 📊 Dashboard with Stats and Timer
+###  Dashboard with Stats and Timer
 ![Screenshot 2025-06-23 091654](https://github.com/user-attachments/assets/e5734ffd-1e78-452b-b6a8-c1132fc04b0c)
 
+
+## Demo video- https://drive.google.com/file/d/1UgAfFyZHgwanI9AuEKWD1W-t6TYLh701/view?usp=drivesdk
 
 ---
 
@@ -93,13 +95,14 @@ npm install
 npm start
 ```
 
+> before running the agent, you need to first login using email. 
 > Make sure backend runs on **port 8000** and agent also  on **port 8000** as configured.
 
 ---
 
 
 
-## 📌 Future Plans
+##  Future Plans
 
 - Prevent app uninstall during active sessions  
 - Add support for browser-blocking extensions  
