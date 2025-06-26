@@ -1,4 +1,4 @@
-# 🚫 FocusGuardian
+#  FocusGuardian
 
 **Take control of your digital focus. Block distractions. Build discipline.**
 
@@ -16,7 +16,7 @@ It's designed for students, developers, or anyone who wants to reclaim their tim
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Layer        | Tech                         |
 |--------------|------------------------------|
@@ -26,7 +26,7 @@ It's designed for students, developers, or anyone who wants to reclaim their tim
 
 ---
 
-## ⚙️ How it Works
+##  How it Works
 
 1. **Login/Signup** via the React frontend.
 2. On login, the token is securely sent to the **Agent**, which monitors running apps.
@@ -40,13 +40,13 @@ It's designed for students, developers, or anyone who wants to reclaim their tim
 
 ##  Features
 
-✅ Pomodoro-style Timer  
-✅ App Blocking with Force Close  
-✅ Real-Time Violation Logging  
-✅ Total Focus Time Tracker  
-✅ Clean & Professional UI  
-✅ Local Agent Integration  
-✅ Secure Token Communication
+- Pomodoro-style Timer  
+- App Blocking with Force Close  
+- Real-Time Violation Logging  
+- Total Focus Time Tracker  
+- Clean & Professional UI  
+- Local Agent Integration  
+- Secure Token Communication
 
 ---
 
