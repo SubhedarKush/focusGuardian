@@ -9,21 +9,21 @@ connectDB();
 app.use(cors());
 app.use(express.json()); // for parsing JSON
 
-// ✅ Use Auth Routes
+//  Use Auth Routes
 app.use('/api/auth', require('./routes/authRoutes.js'));
 
 app.get('/', (req, res) => {
   res.send('FocusGuardian Backend is running...');
 });
 
-app.use('/api/user', require("./routes/authRoutes.js")); // or wherever you added /me
+app.use('/api/user', require("./routes/authRoutes.js")); 
 
 app.use('/api/focus-sessions', require('./routes/focusSessionRoute.js'));
 
 const violationRoutes = require("./routes/violations.js");
 app.use('/api/violations', violationRoutes);
 
-// ✅ ADD AGENT ROUTES - This was missing!
+
 app.use('/api/agent', require("../agent/agentRoutes.js"));
 
 const PORT = process.env.PORT || 8000;
