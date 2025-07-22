@@ -5,12 +5,12 @@ const { exec, spawn } = require('child_process');
 const path = require('path');
 const router = express.Router();
 
-const TOKEN_PATH = require("./tokenPath"); // ✅ Use shared token path
+const TOKEN_PATH = require("./tokenPath"); //  Use shared token path
 
 // Track agent process
 let agentProcess = null;
 
-// ✅ Save token to file
+//  Save token to file
 router.post('/save-token', (req, res) => {
   const { token } = req.body;
   if (!token) return res.status(400).json({ message: 'Token required' });
@@ -19,7 +19,7 @@ router.post('/save-token', (req, res) => {
   res.json({ message: 'Token saved successfully' });
 });
 
-// ✅ Start the monitoring agent
+//  Start the monitoring agent
 router.post('/start-agent', (req, res) => {
   try {
     const { blockedApps, sessionId } = req.body;
@@ -50,7 +50,7 @@ router.post('/start-agent', (req, res) => {
   }
 });
 
-// ✅ Delete token
+//  Delete token
 router.delete('/delete-token', (req, res) => {
   if (fs.existsSync(TOKEN_PATH)) {
     fs.unlinkSync(TOKEN_PATH);
@@ -58,7 +58,7 @@ router.delete('/delete-token', (req, res) => {
   res.json({ message: 'Token deleted successfully' });
 });
 
-// ✅ Stop monitoring (don't kill the process)
+// Stop monitoring (don't kill the process)
 router.get('/kill-agent', (req, res) => {
   try {
     // Signal the agent to stop monitoring
@@ -79,7 +79,7 @@ router.get('/kill-agent', (req, res) => {
   }
 });
 
-// ✅ Optional: Completely kill agent process (use sparingly)
+//  : Completely kill agent process (use sparingly)
 router.post('/terminate-agent', (req, res) => {
   try {
     if (agentProcess && !agentProcess.killed) {
