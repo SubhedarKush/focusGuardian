@@ -78,14 +78,14 @@ cd focusguardian
 ```bash
 cd backend
 npm install
-npm run dev
+node index.js
 ```
 
 #### Agent
 ```bash
 cd agent
 npm install
-node index.js
+npm start dev
 ```
 
 #### Frontend
@@ -93,7 +93,7 @@ node index.js
 cd frontend
 cd frontEnd
 npm install
-npm start
+npm run dev
 ```
 
 > before running the agent, you need to first login using email. 
